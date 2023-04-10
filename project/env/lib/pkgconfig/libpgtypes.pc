@@ -1,0 +1,9 @@
+Name: libpgtypes
+Description: PostgreSQL libpgtypes library
+Url: http://www.postgresql.org/
+Version: 12.9
+Requires: 
+Requires.private: 
+Cflags: -I/Users/tanmayrela/Desktop/Ai project/project/env/include
+Libs: -L/Users/tanmayrela/Desktop/Ai project/project/env/lib -lpgtypes
+Libs.private: -L/Users/tanmayrela/Desktop/Ai project/project/env/lib -lpgcommon -lpgport -lm
